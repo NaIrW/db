@@ -178,6 +178,7 @@ class DB:
 
 
 if __name__ == '__main__':
+    # test
     tdb = DB('')
     for each in tdb.find('', limit=10):
         print(each)
